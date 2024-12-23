@@ -9,7 +9,7 @@ Currently, two official plugins are available:
 
 # Personal React + JavaScript Project Template with Tailwind and DaisyUI
 
-This repo contains the defualt react+vite template expanded upon to use tailwindcss and DaisyUI
+This repo contains the default react+vite template expanded upon to use tailwindcss and DaisyUI
 Clone Repo or follow below steps to manually initialize the project
 Find reference samples of the project configuration files at the bottom of this doc.
 
