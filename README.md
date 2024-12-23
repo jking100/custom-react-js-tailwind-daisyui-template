@@ -43,8 +43,8 @@ Add Tailwind directives to `src/index.css`:
 @tailwind utilities;
 ```
 
-Test Tailwind by using this html:
-```html
+Test Tailwind by using this jsx:
+```jsx
 <h1 className="text-3xl font-bold underline">
     if this is big n bold n underlined tailwind is working
 </h1>
@@ -64,8 +64,8 @@ Install DaisyUI:
 npm i -D daisyui@latest
 ```
 
-Test DaisyUI by using this html:
-```html
+Test DaisyUI by using this jsx:
+```jsx
 <p>The button below should be big blue and have a hover effect if daisyUI is working</p>
 <button className="btn btn-primary w-64">Big Blue Button</button>
 ```
