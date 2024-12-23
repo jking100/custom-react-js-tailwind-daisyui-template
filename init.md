@@ -1,10 +1,11 @@
 # React + JavaScript Project Template with Tailwind and DaisyUI
 
 This process will create a basic multi-view website template with a navigation bar.
+Find reference samples of the project configuration files at the bottom of this doc.
 
 ## 1. Create React Template
 
-Create a new React project with Vite:
+Create a new React JS project with Vite:
 ```bash
 npm create vite@latest . -- --template react
 ```
@@ -32,8 +33,8 @@ Add Tailwind directives to `src/index.css`:
 @tailwind utilities;
 ```
 
-Test Tailwind by adding this component:
-```jsx
+Test Tailwind by using this html:
+```html
 <h1 className="text-3xl font-bold underline">
     if this is big n bold n underlined tailwind is working
 </h1>
@@ -51,6 +52,12 @@ npm i react-router-dom
 Install DaisyUI:
 ```bash
 npm i -D daisyui@latest
+```
+
+Test DaisyUI by using this html:
+```html
+<p>The button below should be big blue and have a hover effect if daisyUI is working</p>
+<button className="btn btn-primary w-64">Big Blue Button</button>
 ```
 
 ## Configuration Files
